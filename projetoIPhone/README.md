@@ -1,18 +1,22 @@
-## Getting Started
+# Projeto Iphone
+## Diagrama em UML e criação de interfaces e classes em Java de um IPhone.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Para começar este projeto eu ulitizei a Classe UML da [Lucidchart](https://lucid.app/lucidchart/17d2f4f4-7280-4ec2-9075-dcfe1562933c/edit?viewport_loc=-403%2C-12%2C2738%2C1263%2CHWEp-vi-RSFO&invitationId=inv_958e2352-e647-4d65-a1be-ff9b4b44ef52) para elaborar o diagrama do IPhone.
 
-## Folder Structure
+<img src="https://github.com/vverdum/UML-Iphone/assets/157656254/96578ac5-1932-4ed6-8d38-060c62636fe5 " style="width: 500px;">
 
-The workspace contains two folders by default, where:
+Antes de explicar o código que estou propondo em java, gostaria de salientar que fiquei com muitas dúvidas e acabei utilizando a [Google AI Studio]( https://aistudio.google.com/app/prompts/1AetpkBVHd2BlOcm5y2b2mhLYY6-WysSh?utm_source=website&utm_medium=referral&utm_campaign=Alura&utm_content=) para me auxiliar nesse desafio. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Utilizei o Visual Studio Code para criação do projeto. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Então criei um pacote dispositivos com quatro pacotes: internet, musica, telefonia e Iphone.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+<img src="https://github.com/vverdum/UML-Iphone/assets/157656254/30d96e17-eb6d-4b6b-aa84-5513f7325def" style="width: 200px;">
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Após estabelecer esta estrutura, eu escrevi um prompt solicitando a criação de uma interface NavegadorInternet e uma classe Internet que implementasse esta interface. 
+Desta forma, cada pacote contém dois arquivos uma classe e uma interface de acordo com o diagrama na UML, totalizando seis arquivos em java. 
+
+Depois escrevi um prompt solicitando a criação de um arquivo iPhone que implementasse os métodos criados. 
+Eu tive que fazer vários ajustes porque inicialmente o código implementou as classes e não as interfaces, declarou a variável musica mas não a utilizou e também não fechava o scanner. Após as correções, o código atendeu as minha expectativas. 
+
